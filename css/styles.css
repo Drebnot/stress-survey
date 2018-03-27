@@ -1,7 +1,8 @@
-#work-responses {
-  display: none;
+#health-tip{
+  font-size: 80px;
+  text-shadow: 10px, 10px, #ff0000;
 }
 
-#fun-responses {
-  display: none;
+body {
+  background-color: #ffff1a;
 }
