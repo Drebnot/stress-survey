@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Survey</h2>
+      </div>
+      <form id="stress_survey">
+        <div class="form-group">
+          <p>In the past year, have you exhibited any of the following signs:</p>
+          <input type="checkbox" name="warning-signs" value="sleeplessness"> Loss of sleep<br>
+          <input type="checkbox" name="warning-signs" value="overwhelmed">Feeling overwhelmed<br>
+          <input type="checkbox" name="warning-signs" value="appetiteloss">Loss of appetite<br>
+          <input type="checkbox" name="warning-signs" value="rage">Bouts of rage<br>
+          <input type="checkbox" name="warning-signs" value="crying">Crying, so much crying.<br>
+          <input type="checkbox" name="warning-signs" value="depression">Depression<br>
+          <input type="checkbox" name="warning-signs" value="throw">Throwing objects at friends and family.<br>
+        </div>
+        <div class="form-group">
+          <p>In the past year, have you had any of the following symptoms:</p>
+          <input type="checkbox" name="stress-symptoms" value="hairloss"> Hair-loss<br>
+          <input type="checkbox" name="stress-symptoms" value="hbp">High blood-pressure<br>
+          <input type="checkbox" name="stress-symptoms" value="exhaustion">Exhaustion<br>
+          <input type="checkbox" name="stress-symptoms" value="fatigue">Fatigue<br>
+          <input type="checkbox" name="stress-symptoms" value="anxiety">Anxiety<br>
+          <input type="checkbox" name="stress-symptoms" value="breathless">Shortness of breath<br>
+          <input type="checkbox" name="stress-symptoms" value="cancer">Cancer<br>
+          <input type="checkbox" name="stress-symptoms" value="destruction">Appetite for destruction<br>
+        </div>
+        <div class="form-group">
+          <p>In the past year, have you tried any of the following coping mechanisms:</p>
+          <input type="checkbox" name="coping-mechanisms" value="meditate"> Meditate<br>
+          <input type="checkbox" name="coping-mechanisms" value="cat">Pet a cat<br>
+          <input type="checkbox" name="coping-mechanisms" value="massage">Massage<br>
+          <input type="checkbox" name="coping-mechanisms" value="timemanagement">Time Management<br>
+          <input type="checkbox" name="coping-mechanisms" value="therapy">Therapy<br>
+          <input type="checkbox" name="coping-mechanisms" value="exercise">Exercise<br>
+          <input type="checkbox" name="coping-mechanisms" value="vacation">Vacation<br>
+          <input type="checkbox" name="coping-mechanisms" value="martialarts">Martial Arts<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="health-tip">
+        <p><b></b></p>
+      </span>
+      <br>
+      <span id="fun-responses">
+        <p><b>You use the following methods of transportation to travel to other activities and events:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
